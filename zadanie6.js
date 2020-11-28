@@ -1,0 +1,2 @@
+db.people.insert({"sex":"Male","first_name":"Filip","last_name":"Sleszynski","job":"BI Developer","email":"s16331@pjwstk.edu.pl","location":{"city":"Warsaw","address":{"streetname":"KEN","streetnumber":"11"}},"description":"Quite a nice guy tbh.","height":"181","weight":"68","birth_date":"1996-02-25T22:00:00Z","nationality":"Poland","credit":[{"type":"switch","number":"121234123412341234","currency":"PLN", "balance":"0.00"}]})
+printjson(db.people.findOne({"first_name":"Filip","last_name":"Sleszynski"})) 
